@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/wedding-check-kupa/static/css/main.67679915.css",
-    "main.js": "/wedding-check-kupa/static/js/main.a5502019.js",
+    "main.css": "/wedding-check-kupa/static/css/main.c6096cce.css",
+    "main.js": "/wedding-check-kupa/static/js/main.55134890.js",
     "index.html": "/wedding-check-kupa/index.html",
-    "main.67679915.css.map": "/wedding-check-kupa/static/css/main.67679915.css.map",
-    "main.a5502019.js.map": "/wedding-check-kupa/static/js/main.a5502019.js.map"
+    "main.c6096cce.css.map": "/wedding-check-kupa/static/css/main.c6096cce.css.map",
+    "main.55134890.js.map": "/wedding-check-kupa/static/js/main.55134890.js.map"
   },
   "entrypoints": [
-    "static/css/main.67679915.css",
-    "static/js/main.a5502019.js"
+    "static/css/main.c6096cce.css",
+    "static/js/main.55134890.js"
   ]
 }
