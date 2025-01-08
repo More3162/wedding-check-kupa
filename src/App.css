@@ -67,3 +67,20 @@ button:hover {
   color: #e74c3c;
   margin-bottom: 10px;
 }
+.cart {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  animation: move-cart 10s linear infinite;
+}
+
+@keyframes move-cart {
+  0% {
+    transform: translateX(-120%);
+  }
+
+  100% {
+    transform: translateX(120%);
+  }
+}

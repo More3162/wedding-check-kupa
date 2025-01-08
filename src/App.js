@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
+<img src="/images/cart.png" alt="Cart" className="cart" />;
 
 const App = () => {
   const [relationship, setRelationship] = useState("");
@@ -9,22 +10,25 @@ const App = () => {
   const [backgroundIndex, setBackgroundIndex] = useState(0);
 
   const backgrounds = [
-    "../public/image/kupa1.jpg",
-    "../public/image/kupa2.jpg",
-    "../public/image/kupa3.jpg",
-    "../public/image/kupa4.jpg",
+    "../public/images/kupa1.jpg",
+    "../public/images/kupa2.jpg",
+    "../public/images/kupa3.jpg",
+    "../public/images/kupa4.jpg",
   ];
 
   useEffect(() => {
     const updateBackground = () => {
       document.body.style.backgroundImage = `url(${backgrounds[backgroundIndex]})`;
+      document.body.style.backgroundSize = "cover";
+      document.body.style.backgroundRepeat = "no-repeat";
+      document.body.style.transition = "background-image 1.5s ease-in-out";
     };
 
     updateBackground();
 
     const interval = setInterval(() => {
       setBackgroundIndex((prevIndex) => (prevIndex + 1) % backgrounds.length);
-    }, 5000); // Change every 5 seconds
+    }, 5000);
 
     return () => clearInterval(interval);
   }, [backgroundIndex, backgrounds]);
