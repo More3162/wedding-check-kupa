@@ -10,10 +10,10 @@ const App = () => {
   const [backgroundIndex, setBackgroundIndex] = useState(0);
 
   const backgrounds = [
-    "../public/images/kupa1.jpg",
-    "../public/images/kupa2.jpg",
-    "../public/images/kupa3.jpg",
-    "../public/images/kupa4.jpg",
+    process.env.PUBLIC_URL + "/images/kupa1.jpg",
+    process.env.PUBLIC_URL + "/images/kupa2.jpg",
+    process.env.PUBLIC_URL + "/images/kupa3.jpg",
+    process.env.PUBLIC_URL + "/images/kupa4.jpg",
   ];
 
   useEffect(() => {
