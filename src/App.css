@@ -20,7 +20,7 @@ body {
 
 h1 {
   font-size: 2.5rem;
-  color: #e74c3c;
+  color: #532035;
   margin-bottom: 20px;
 }
 
@@ -45,26 +45,26 @@ button {
 }
 
 button {
-  background-color: #e74c3c;
+  background-color: #532035;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #c0392b;
+  background-color: #532035;
 }
 
 .result {
   background-color: #fef4f4;
   padding: 20px;
-  border: 1px solid #e74c3c;
+  border: 1px solid #532035;
   border-radius: 8px;
   margin-top: 20px;
 }
 
 .result h2 {
-  color: #e74c3c;
+  color: #532035;
   margin-bottom: 10px;
 }
 .cart {
